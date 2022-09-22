@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Demo System Rules</title>
+  <style>
+
+    :root {--primary:cornflowerblue;--body-color:#666;--body-bg:ivory;--heading-color:#444;--content-bg:white}
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: var(--body-bg);
+      color: var(--body-color);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--heading-color);
+    }
+
+    table {
+      width: 100%;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .wrapper {
+      max-width: 700px;
+      padding: 2rem;
+      background: var(--content-bg);
+      margin: auto;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .page > *:first-child {
+      margin-top: 0;
+    }
+
+    .page > *:last-child {
+      margin-bottom: 0;
+    }
+
+    .page pre {
+      background: #eee;
+      padding: 1rem;
+    }
+
+    .page img {
+      max-width: 100%;
+    }
+
+    *:not(pre) > code {
+      color: chocolate;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 700px) {
+      body {
+        padding: 0;
+      }
+
+      .wrapper {
+        border: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="page">
+    <h1 id="demo-system-rules">Demo System Rules</h1>
+
+  </div>
+</div>
+</body>
+</html>
